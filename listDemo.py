@@ -9,5 +9,5 @@ print('The last word was: ', words[-1])
 
 
 #print out list one at a time
-for time in words:
+for item in words:
     print(item)
