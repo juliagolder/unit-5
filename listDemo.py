@@ -4,5 +4,5 @@
 
 words = input('Enter some words: ').split(' ')
 
-print(words)
-
+print('The first word was: ', words[0])
+print('The last word was: ', words[-1])
