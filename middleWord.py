@@ -5,5 +5,4 @@
 word = input('Enter some words: ').split(' ')
 
 
-
 print(word[total%2])
