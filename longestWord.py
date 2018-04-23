@@ -6,4 +6,3 @@ word = input('Enter some words: ').split(' ')
 
 total = len(word)
 
-
