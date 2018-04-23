@@ -4,6 +4,6 @@
 
 word = input('Enter some words: ').split(' ')
 
-total = add.word
+total = len(word)
 
-print(word[total%2])
+print(word[total/2])
