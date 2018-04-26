@@ -4,8 +4,12 @@
 
 from random import randint
 
+number = []
 
-for i in range:
-    numbers[]
-    print(i)
+for i in range(20):
+    number.append(randint(1,100))
+print(sum(number))
+print(min(number))
+print(max(number))
+
 
