@@ -7,4 +7,3 @@ word = input('Enter some words: ').split(' ')
 for w in word:
     if w[0] in 'AEIOUaeiou': #starts with vowel'
         print(w)
-    
