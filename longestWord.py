@@ -5,5 +5,7 @@
 word = input('Enter some words: ').split(' ')
 
 
+
 for item in word:
-    print(word)
+    print(len(item))
+
