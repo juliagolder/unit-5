@@ -9,11 +9,13 @@ ANTS = 50
 WIDTH = 700
 HEIGHT = 400
 
+#move each ant randomly up/down and left/right
 def step():
     for ant in data['antlist']:
         ant.x += randint(-4,3)
         ant.y += randint(-4,3)
 
+#putting fireants randomly on the screen
 if __name__ == '__main__':
     
     data = {}
