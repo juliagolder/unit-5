@@ -4,8 +4,13 @@
 
 word = input('Enter some words: ').split(' ')
 
+longest = 0
+LONGword = ''
 
 
 for item in word:
-    print(len(item))
+    if longest < (len(item)):
+        longest = (len(item))
+        LONGword = item
 
+print(LONGword)
