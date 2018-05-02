@@ -1,6 +1,6 @@
-#Sam Smedinghoff
-#5/1/18
-#sortingTemplate.py - times a sorting function
+#juliagolder
+#5/2/18
+#cocktailSortDemo.py
 
 from random import randint
 from time import time
