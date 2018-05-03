@@ -5,11 +5,11 @@
 from random import randint
 from time import time
 
-n = 100 #how many numbers will be sorted
+N = 100 #how many numbers will be sorted
 
 def mySort(A):
-    for j in range(0,j < n-1)
-    for i in range(j+1, i < n)
+    for j in range(0,len-1)
+    for i in range(j+1, i < N)
         if (a[i] < a[iMin])
             iMin = i
     while swapped:
