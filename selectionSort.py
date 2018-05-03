@@ -1,14 +1,17 @@
 #juliagolder
 #5/3/18
-
+#selectionSort.py
 
 from random import randint
 from time import time
 
-N = 100 #how many numbers will be sorted
+n = 100 #how many numbers will be sorted
 
 def mySort(A):
-    swapped = True
+    for j in range(0,j < n-1)
+    for i in range(j+1, i < n)
+        if (a[i] < a[iMin])
+            iMin = i
     while swapped:
         swapped = False
         for i in range(0,len(A)-1):
@@ -24,6 +27,8 @@ def mySort(A):
                 swapped = True
         
     return A
+
+
     
 if __name__ == '__main__':
 
@@ -36,8 +41,7 @@ if __name__ == '__main__':
     
     #time how long your sort takes
     t1 = time()
-    #numbers = mySort(numbers)
-    numbers = numbers.sort()
+    numbers = mySort(numbers)
     t2 = time()
     
     #print whether the sort worked or not
