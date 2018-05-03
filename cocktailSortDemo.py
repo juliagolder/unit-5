@@ -39,7 +39,6 @@ if __name__ == '__main__':
     #numbers = mySort(numbers)
     numbers = numbers.sort()
     t2 = time()
-    
     #print whether the sort worked or not
     try:
         assert(numbers == pythonSort)
