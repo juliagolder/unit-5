@@ -8,10 +8,16 @@ from time import time
 N = 100 #how many numbers will be sorted
 
 def mySort(A):
-    for j in range(0,len-1)
-    for i in range(j+1, i < N)
-        if (a[i] < a[iMin])
-            iMin = i
+    for j in range(0,len(A)-1):
+        iMin = j
+        for i in range(j+1, N):
+            if (A[i] < A[iMin]):
+                iMin = i
+        if iMin != j:
+            A[j], A[iMin] = A[iMin], A[j]
+    return A
+   
+""" 
     while swapped:
         swapped = False
         for i in range(0,len(A)-1):
@@ -27,7 +33,7 @@ def mySort(A):
                 swapped = True
         
     return A
-
+"""
 
     
 if __name__ == '__main__':
