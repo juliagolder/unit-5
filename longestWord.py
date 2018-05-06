@@ -4,7 +4,7 @@
 
 word = input('Enter some words: ').split(' ') #splits words into list
 
-longest = 0 
+longest = 0
 LONGword = '' #label the variable
 
 
