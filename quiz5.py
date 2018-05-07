@@ -14,7 +14,7 @@ def plusEquals(L):
     for item in L:
         new.append(item+10)
     return new
-    
+
 print(plusEquals([1,2,3]))
 
 
