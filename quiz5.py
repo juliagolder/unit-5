@@ -14,11 +14,12 @@ def plusEquals(L):
     for item in L:
         new.append(item+10)
     return new
-
+    
 print(plusEquals([1,2,3]))
 
 
 def smallest(T):
     print(len(number))
 print(smallest([1,2,3,4]))
+
 
